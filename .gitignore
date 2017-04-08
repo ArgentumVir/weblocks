@@ -42,5 +42,5 @@ jspm_packages
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-dist/*
+dist/bundle.js
 *.trace
