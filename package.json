@@ -24,7 +24,9 @@
     "postinstall": "browserify src/client/clientMain.js -i nodejs-physijs -o dist/bundle.js ",
     "build": "browserify src/client/clientMain.js -i nodejs-physijs -o dist/bundle.js ",
     "watchify": "watchify src/client/clientMain.js -i nodejs-physijs -o dist/bundle.js -v -d",
-	"deploy": "npm run build && npm run start"
+	"deploy": "npm run build && npm run start",
+	"eb-deploy": "call ./scripts/deploy.bat",
+	"clean": "call ./scripts/clean.bat"
   },
   "repository": {
     "type": "git",
